@@ -35,6 +35,10 @@
 	user-select: none;
 }
 
+p{
+	font-size:8vw;
+}
+
 img {
 	width: 8rem; height: 8rem;
 	vertical-align: calc(-0.12109375em);
@@ -54,6 +58,13 @@ img {
 
 .theme--alive { color: var(--white); background: var(--green); }
 .theme--dead  { color: var(--red  ); background: var(--black); }
+
+@media only screen and (max-width: 800px) {
+  img {
+	width: 2em;
+    height: 2em;
+  }
+}
 
 		</style>
 	</head>
